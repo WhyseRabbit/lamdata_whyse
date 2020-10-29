@@ -17,7 +17,7 @@ setuptools.setup(
     name="lambdata_whyse",
     version="0.0.2",
     author="WhyseRabbit",
-    description="A project associated with Lambda Schools to create Data Science utility functions."
+    description="A project associated with Lambda Schools to create Data Science utility functions.",
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
     url="https://github.com/WhyseRabbit/lamdata_whyse",
