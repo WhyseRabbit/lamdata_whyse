@@ -23,6 +23,7 @@ def t_v_t_split(self, df, features,
     Returns:
         Training, validation, and testing DataFrames for X; training, validation, and testing Series for y.
     """
+
     X = df[features]
     y = choose_target
 

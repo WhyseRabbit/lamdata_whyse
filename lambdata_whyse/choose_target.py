@@ -1,7 +1,7 @@
 import pandas as pd
 
 def choose_target(self, target_name: str) -> pd.Series:
-    """Choose a target from a DataFrame and transform it into a pandas Series."""
+    """Choose a target from a DataFrame by entering a column name as a string and transform it into a pandas Series."""
     return self[target_name]
 
 
