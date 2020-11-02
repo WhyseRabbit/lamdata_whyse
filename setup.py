@@ -1,26 +1,25 @@
 """
-Lambdata-- A project associated with Lambda Schools to create Data Science utility functions.
+lambdata - a collection of Data Science helper functions
 """
 
 import setuptools
 
 REQUIRED = [
-    "pandas",
     "numpy",
-    "sklearn"
+    "pandas"
 ]
 
 with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
 
 setuptools.setup(
-    name="lambdata_whyse",
-    version="0.0.2",
-    author="WhyseRabbit",
-    description="A project associated with Lambda Schools to create Data Science utility functions.",
+    name=<PROJ_NAME>,
+    version="0.0.1",
+    author=<USERNAME>,
+    description="A collection of Data Science helper functions",
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
-    url="https://github.com/WhyseRabbit/lamdata_whyse",
+    url="https://lambdaschool.com/courses/data-science/",
     packages=setuptools.find_packages(),
     python_requires=">=3.5",
     install_requires=REQUIRED,
