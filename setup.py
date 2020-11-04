@@ -14,7 +14,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="lambdata_whyse",
-    version="0.0.3",
+    version="0.1.1",
     author="WhyseRabbit",
     description="A collection of Data Science helper functions",
     long_description=LONG_DESCRIPTION,
@@ -29,3 +29,4 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
 )
+
