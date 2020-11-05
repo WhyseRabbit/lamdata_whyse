@@ -2,6 +2,8 @@
 Helpful functions for Data Science.
 
 Within this library contains a choose_target function and a variant of the traint_test_split function from SciKit Learn
-known as the t_v_t_split function. The two are meant to be used together.
+known as the train_val_test_split function. The two are meant to be used together.
 
-Version: 0.1.1
+Further documentation will be added in the future; for now, refer to the docstrings within the function files for use and information.
+
+Version: 0.1.2
