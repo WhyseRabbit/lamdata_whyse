@@ -24,6 +24,6 @@ if __name__ == "__main__":
     "maybe" : [0.5, 1.2, 4.82, 42.0, 5.9, 9.4, 6.9, 7.1, 2.5, 18.2]
     }
 
-    y = str(input("Enter column choice ('yes', 'no', 'maybe'):"))
+    y = choose_target("yes")
 
     print(y)
