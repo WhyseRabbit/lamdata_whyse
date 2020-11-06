@@ -48,15 +48,3 @@ def train_val_test_split(self, df, features,
 
 
     return X_train, X_val, X_test, y_train, y_val, y_test
-
-if __name__ == "__main__":
-    """# only use code below if this script
-    # not if it is imported from another script"""
-    df = {("yes" : [1, 2, 3, 4 , 5, 6, 7, 8, 9, 10]),
-         ("no" : [True, False, False, False, True, False, True,
-         True, False, True]),
-         ("maybe" : [0.5, 1.2, 4.82, 42.0, 5.9, 9.4, 6.9, 7.1, 2.5, 18.2])
-    }
-
-    a = train_val_test_split(df, ["no", "maybe"], random_state=5)
-    return a
