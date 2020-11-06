@@ -8,9 +8,7 @@ from .choose_target import choose_target
 def train_val_test_split(self, df, features,
                          train_size=0.7, val_size=0.1,
                          test_size=0.2, random_state=None,
-                         shuffle=True) -> [pd.DataFrame,
-                         pd.DataFrame, pd.DataFrame,
-                         pd.Series, pd.Series, pd.Series]:
+                         shuffle=True):
 
     """
     This is meant to be used with the choose_target function; it effectively
