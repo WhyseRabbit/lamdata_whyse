@@ -8,9 +8,9 @@ from .choose_target import choose_target
 def train_val_test_split(self, df, features,
                          train_size=0.7, val_size=0.1,
                          test_size=0.2, random_state=None,
-                         shuffle=True) ->
-                         [pd.DataFrame, pd.DataFrame, pd.DataFrame,
-                          pd.Series, pd.Series, pd.Series]:
+                         shuffle=True) -> [pd.DataFrame,
+                         pd.DataFrame, pd.DataFrame,
+                         pd.Series, pd.Series, pd.Series]:
 
     """
     This is meant to be used with the choose_target function; it effectively
@@ -50,4 +50,13 @@ def train_val_test_split(self, df, features,
 
 
     return X_train, X_val, X_test, y_train, y_val, y_test
+
+if __name__ == "__main__":
+    """# only use code below if this script
+    # not if it is imported from another script"""
+    {"yes" : [1, 2, 3, 4 , 5, 6, 7, 8, 9, 10],
+    "no" : [True, False, False, False, True, False, True,
+    True, False, True],
+    "maybe" : [0.5, 1.2, 4.82, 42.0, 5.9, 9.4, 6.9, 7.1, 2.5, 18.2]
+    }
 
