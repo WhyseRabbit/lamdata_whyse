@@ -13,7 +13,7 @@ class TestChoose_Target(unittest.TestCase):
     def ct_test_repr(self):
         df = df
         yes = choose_target(df, "yes")
-        self.assertCountEqual(len(yes = 10))
+        self.assertEqual(len(yes) == 10, len(yes) == 10)
 
 
 if __name__ == "__main__":
