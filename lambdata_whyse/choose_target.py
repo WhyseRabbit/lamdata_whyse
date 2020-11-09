@@ -1,7 +1,7 @@
 # Package Imports:
 import pandas as pd
 
-def choose_target(self, target_name: str):
+def choose_target(self, df, target_name: str):
 
     """Choose a target from a DataFrame by entering a column name as a string
     and transform it into a pandas Series.
@@ -12,4 +12,4 @@ def choose_target(self, target_name: str):
     Returns a pandas Series to be divided by the train_val_test_split function.
     """
     
-    return self[target_name]
+    return self.df[target_name]
