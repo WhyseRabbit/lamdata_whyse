@@ -1,5 +1,5 @@
 import unittest
-from .lambdata_whyse import choose_target
+from src.lambdata_whyse import choose_target
 
 df = {
     "yes" : [1, 2, 3, 4, 5, 6, 7, 8, 9, 0],
