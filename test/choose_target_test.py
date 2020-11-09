@@ -14,3 +14,7 @@ class TestChoose_Target(unittest.TestCase):
         df = df
         yes = choose_target(df, "yes")
         self.assertCountEqual(len(yes = 10))
+
+
+if __name__ == "__main__":
+    unittest.main()
